@@ -50,7 +50,6 @@ context_stage = RunnableLambda(
     }
 )
 
-# 3) Prompt -> LLM -> extract answer text
 answer_stage = (
     PROMPT
     | llm
